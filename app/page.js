@@ -15,14 +15,18 @@ export default function Home() {
   const cardRef = useRef(null);
 
   const selected = useMemo(
-    () => selectedIds.map((id) => leaders.find((l) => l.id === id)).filter(Boolean),
+    () =>
+      selectedIds.map((id) => leaders.find((l) => l.id === id)).filter(Boolean),
     [selectedIds],
   );
 
   const total = selected.reduce((sum, l) => sum + l.price, 0);
   const remaining = BUDGET - total;
   const isComplete = selected.length === MAX_SELECTIONS && total <= BUDGET;
-  const cardSlots = Array.from({ length: MAX_SELECTIONS }, (_, i) => selected[i] || null);
+  const cardSlots = Array.from(
+    { length: MAX_SELECTIONS },
+    (_, i) => selected[i] || null,
+  );
 
   const toggleLeader = (leader) => {
     setStatus("");
@@ -30,7 +34,8 @@ export default function Home() {
       setSelectedIds((cur) => cur.filter((id) => id !== leader.id));
       return;
     }
-    if (selectedIds.length >= MAX_SELECTIONS || total + leader.price > BUDGET) return;
+    if (selectedIds.length >= MAX_SELECTIONS || total + leader.price > BUDGET)
+      return;
     setSelectedIds((cur) => [...cur, leader.id]);
   };
 
@@ -60,7 +65,9 @@ export default function Home() {
         pixelRatio: 2,
         backgroundColor: "#06080c",
       });
-      await navigator.clipboard.write([new ClipboardItem({ "image/png": blob })]);
+      await navigator.clipboard.write([
+        new ClipboardItem({ "image/png": blob }),
+      ]);
       setStatus("Copied image");
     } catch {
       const names = selected.map((l) => l.name).join(", ");
@@ -148,7 +155,9 @@ export default function Home() {
 
         <div className="councilBody">
           <div className="preview" ref={cardRef}>
-            <div className="previewTitle">{countryName.trim() || "Your Country"}</div>
+            <div className="previewTitle">
+              {countryName.trim() || "Your Country"}
+            </div>
 
             {selected.length === 0 ? (
               <div className="emptyHint">
@@ -186,11 +195,21 @@ export default function Home() {
                 value={countryName}
               />
             </label>
-            <button className="btnPrimary" disabled={!isComplete} onClick={downloadCard} type="button">
+            <button
+              className="btnPrimary"
+              disabled={!isComplete}
+              onClick={downloadCard}
+              type="button"
+            >
               <Download size={16} aria-hidden="true" />
               Download PNG
             </button>
-            <button className="btnSecondary" disabled={!isComplete} onClick={copyCard} type="button">
+            <button
+              className="btnSecondary"
+              disabled={!isComplete}
+              onClick={copyCard}
+              type="button"
+            >
               <Copy size={16} aria-hidden="true" />
               Copy card
             </button>
@@ -210,6 +229,12 @@ export default function Home() {
           </div>
         </div>
       </section>
+
+      <footer className="legalNote">
+        <span>
+          Not affiliated with the Lemonade Stand podcast. Huge fan though!
+        </span>
+      </footer>
     </main>
   );
 }

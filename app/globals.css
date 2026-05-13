@@ -568,6 +568,26 @@ button {
   cursor: not-allowed;
 }
 
+/* ── Legal Note ── */
+
+.legalNote {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 44px;
+  color: var(--text-dim);
+  font-size: 0.68rem;
+  font-weight: 600;
+  line-height: 1.5;
+  text-align: center;
+}
+
+.legalNote span + span::before {
+  content: "/";
+  margin-right: 12px;
+  color: rgba(232, 228, 219, 0.18);
+}
+
 /* ── Responsive ── */
 
 @media (max-width: 960px) {
@@ -667,5 +687,14 @@ button {
 
   .slotEmpty:last-child {
     border-bottom: 0;
+  }
+
+  .legalNote {
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .legalNote span + span::before {
+    content: none;
   }
 }
