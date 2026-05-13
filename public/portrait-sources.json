@@ -1,0 +1,127 @@
+{
+  "lincoln": {
+    "name": "Abraham Lincoln",
+    "page": "https://en.wikipedia.org/wiki/Abraham_Lincoln",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg/330px-Abraham_Lincoln_1863_Portrait_%283x4_cropped%29.jpg"
+  },
+  "fdr": {
+    "name": "Franklin D. Roosevelt",
+    "page": "https://en.wikipedia.org/wiki/Franklin_D._Roosevelt",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg/330px-FDR-1944-Campaign-Portrait_%283x4_retouched%2C_cropped%29.jpg"
+  },
+  "alexander": {
+    "name": "Alexander the Great",
+    "page": "https://en.wikipedia.org/wiki/Alexander_the_Great",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/49/Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg/330px-Alexander_Mosaic_detail_of_Alexander_the_Great_%283x4_cropped%29.jpg"
+  },
+  "mandela": {
+    "name": "Nelson Mandela",
+    "page": "https://en.wikipedia.org/wiki/Nelson_Mandela",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Nelson_Mandela_1994.jpg/330px-Nelson_Mandela_1994.jpg"
+  },
+  "lee-kuan-yew": {
+    "name": "Lee Kuan Yew",
+    "page": "https://en.wikipedia.org/wiki/Lee_Kuan_Yew",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor%2C_1975.jpg/330px-Prime_Minister_Lee_Kuan_Yew_of_Singapore_Making_a_Toast_at_a_State_Dinner_Held_in_His_Honor%2C_1975.jpg"
+  },
+  "gandhi": {
+    "name": "Mahatma Gandhi",
+    "page": "https://en.wikipedia.org/wiki/Mahatma_Gandhi",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Mahatma-Gandhi%2C_studio%2C_1931.jpg/330px-Mahatma-Gandhi%2C_studio%2C_1931.jpg"
+  },
+  "ataturk": {
+    "name": "Mustafa Kemal Ataturk",
+    "page": "https://en.wikipedia.org/wiki/Mustafa_Kemal_Atat%C3%BCrk",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/68/Portret_van_de_Turkse_leider_Mustafa_Kemal_Ataturk_%28Atat%C3%BCrk_Kemal_Pascha%29_%281881-1938%29_in_westers%2C_SFA003017837.jpg/330px-Portret_van_de_Turkse_leider_Mustafa_Kemal_Ataturk_%28Atat%C3%BCrk_Kemal_Pascha%29_%281881-1938%29_in_westers%2C_SFA003017837.jpg"
+  },
+  "churchill": {
+    "name": "Winston Churchill",
+    "page": "https://en.wikipedia.org/wiki/Winston_Churchill",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg/330px-Sir_Winston_Churchill_-_19086236948_%28restored%29.jpg"
+  },
+  "caesar": {
+    "name": "Julius Caesar",
+    "page": "https://en.wikipedia.org/wiki/Julius_Caesar",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg/330px-Retrato_de_Julio_C%C3%A9sar_%2826724093101%29_%28cropped%29.jpg"
+  },
+  "marcus-aurelius": {
+    "name": "Marcus Aurelius",
+    "page": "https://en.wikipedia.org/wiki/Marcus_Aurelius",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/MSR-ra-61-b-1-DM.jpg/330px-MSR-ra-61-b-1-DM.jpg"
+  },
+  "napoleon": {
+    "name": "Napoleon Bonaparte",
+    "page": "https://en.wikipedia.org/wiki/Napoleon",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg/330px-Jacques-Louis_David_-_The_Emperor_Napoleon_in_His_Study_at_the_Tuileries_-_Google_Art_Project.jpg"
+  },
+  "genghis": {
+    "name": "Genghis Khan",
+    "page": "https://en.wikipedia.org/wiki/Genghis_Khan",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/YuanEmperorAlbumGenghisPortrait.jpg/330px-YuanEmperorAlbumGenghisPortrait.jpg"
+  },
+  "elizabeth-i": {
+    "name": "Elizabeth I",
+    "page": "https://en.wikipedia.org/wiki/Elizabeth_I",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Darnley_stage_3.jpg/330px-Darnley_stage_3.jpg"
+  },
+  "thatcher": {
+    "name": "Margaret Thatcher",
+    "page": "https://en.wikipedia.org/wiki/Margaret_Thatcher",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Margaret_Thatcher_stock_portrait_%28cropped%29.jpg/330px-Margaret_Thatcher_stock_portrait_%28cropped%29.jpg"
+  },
+  "bismarck": {
+    "name": "Otto von Bismarck",
+    "page": "https://en.wikipedia.org/wiki/Otto_von_Bismarck",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Otto_von_Bismarck_1885_%28cropped%29.jpg/330px-Otto_von_Bismarck_1885_%28cropped%29.jpg"
+  },
+  "cleopatra": {
+    "name": "Cleopatra VII",
+    "page": "https://en.wikipedia.org/wiki/Cleopatra",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3e/Kleopatra-VII.-Altes-Museum-Berlin1.jpg/330px-Kleopatra-VII.-Altes-Museum-Berlin1.jpg"
+  },
+  "henry-viii": {
+    "name": "Henry VIII",
+    "page": "https://en.wikipedia.org/wiki/Henry_VIII",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg/330px-After_Hans_Holbein_the_Younger_-_Portrait_of_Henry_VIII_-_Google_Art_Project.jpg"
+  },
+  "jfk": {
+    "name": "John F. Kennedy",
+    "page": "https://en.wikipedia.org/wiki/John_F._Kennedy",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/John_F._Kennedy%2C_White_House_color_photo_portrait.jpg/330px-John_F._Kennedy%2C_White_House_color_photo_portrait.jpg"
+  },
+  "mao": {
+    "name": "Mao Zedong",
+    "page": "https://en.wikipedia.org/wiki/Mao_Zedong",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Mao_Zedong_1950_Portrait_%283x4_cropped%29%282%29.jpg/330px-Mao_Zedong_1950_Portrait_%283x4_cropped%29%282%29.jpg"
+  },
+  "trump": {
+    "name": "Donald Trump",
+    "page": "https://en.wikipedia.org/wiki/Donald_Trump",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg/330px-Official_Presidential_Portrait_of_President_Donald_J._Trump_%282025%29_%28cropped%29%282%29.jpg"
+  },
+  "hitler": {
+    "name": "Adolf Hitler",
+    "page": "https://en.wikipedia.org/wiki/Adolf_Hitler",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0c/Hitler_portrait_crop_%28cropped%29%282%29.jpg/330px-Hitler_portrait_crop_%28cropped%29%282%29.jpg"
+  },
+  "stalin": {
+    "name": "Joseph Stalin",
+    "page": "https://en.wikipedia.org/wiki/Joseph_Stalin",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/StalinCropped1943.jpg/330px-StalinCropped1943.jpg"
+  },
+  "saddam": {
+    "name": "Saddam Hussein",
+    "page": "https://en.wikipedia.org/wiki/Saddam_Hussein",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Saddam_Hussein_1979.jpg/330px-Saddam_Hussein_1979.jpg"
+  },
+  "pol-pot": {
+    "name": "Pol Pot",
+    "page": "https://en.wikipedia.org/wiki/Pol_Pot",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/c/c1/Pol_Pot_%28cropped%29.jpg"
+  },
+  "putin": {
+    "name": "Vladimir Putin",
+    "page": "https://en.wikipedia.org/wiki/Vladimir_Putin",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29_2.jpg/330px-%D0%92%D0%BB%D0%B0%D0%B4%D0%B8%D0%BC%D0%B8%D1%80_%D0%9F%D1%83%D1%82%D0%B8%D0%BD_%2808-03-2024%29_%28cropped%29_%28higher_res%29_2.jpg"
+  }
+}
