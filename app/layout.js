@@ -3,6 +3,9 @@ import "./globals.css";
 export const metadata = {
   title: "Lemonade Stand Leadership Council",
   description: "Build a three-leader council under a $10 budget.",
+  icons: {
+    icon: "/logo.png",
+  },
 };
 
 export default function RootLayout({ children }) {
