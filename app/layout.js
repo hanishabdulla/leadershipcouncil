@@ -1,7 +1,7 @@
 import "./globals.css";
 
 export const metadata = {
-  title: "Lemonade San Diego Council",
+  title: "Lemonade Stand Leadership Council",
   description: "Build a three-leader council under a $10 budget.",
 };
 
